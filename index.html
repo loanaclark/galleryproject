@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JS - Gallery Homework</title>
+  <link rel="stylesheet" href="/css/gallery.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="addTabIndexToPreviews(); console.log('Page loaded')">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Bulldog green background" src = "https://images.pexels.com/photos/4587973/pexels-photo-4587973.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class = "preview" alt = "Bulldog white background" src = "https://images.pexels.com/photos/4587966/pexels-photo-4587966.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class = "preview" src = "https://images.pexels.com/photos/4587962/pexels-photo-4587962.jpeg" alt = "Bulldog pink background" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+	<img class = "preview" alt = "Bulldog with a banana peel in his head and red background" src = "https://images.pexels.com/photos/4587982/pexels-photo-4587982.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class = "preview" alt = "Bulldog birthday boy" src = "https://images.pexels.com/photos/4587968/pexels-photo-4587968.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+	
+	<img class = "preview" src = "https://images.pexels.com/photos/4587987/pexels-photo-4587987.jpeg" alt = "Bulldog bunny ears and blue background" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="/js/gallery.js"></script>
+
+</body>
+</html>
